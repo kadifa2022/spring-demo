@@ -11,7 +11,7 @@ public class CodeDecodeController {
     @Value("${server.port}")
     private String serverPort;
 
-  //  @GetMapping("/codeDecode")
+   @GetMapping("/codeDecode")
     @RequestMapping("cedeDecode")
     public void codeDecodeGetMapping(){
         System.out.println("My server port is " + serverPort);
